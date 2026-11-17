@@ -22,7 +22,12 @@
             "webname": "fhem",
             "filter": "room=alexa",
             "commandDelay": 200,
-            "commandRetries": 1
+            "commandRetries": 1,
+            "startupDelay": 0,
+            "readyCommand": "",
+            "readyPattern": "",
+            "readyInterval": 5000,
+            "readyTimeout": 600000
         }
     ]
 }
